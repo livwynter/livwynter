@@ -1,0 +1,97 @@
+body, html {
+	
+	font-family: 'Ubuntu Mono', sans-serif;
+
+	/*
+	background-image: url(stripe.jpg);
+	*/
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	width: 120px;
+	vertical-align: middle;;
+	text-decoration: none;
+	line-height: 250px;
+	color: white;
+	background-color: black;
+	border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 0 10px;
+}
+
+nav a.selected, nav a:hover {
+	background-color: white;
+	color: black;
+	border-color: black;
+	box-shadow: 2px 2px 0px black;
+}
+
+#header-wrapper {
+	max-width: 800px;
+	margin: 10px auto 10px;
+	padding: 5px 20px;
+	border: solid 1px black;
+}
+
+#nav-bar {
+	padding: 5px 5px 1.5em;
+	max-width: 600px;
+	height: 300px;
+	line-height: 200px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	max-width: 800px;
+	max-height: 800px;
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+
+#gigs-wrapper {
+	max-width: 800px;
+	margin: 10px auto 10px;
+	padding: 5px 20px;
+	border: solid 1px black;
+
+}
+
+#gigs-wrapper li {
+	margin: 0 320px;	
+	padding: 10px;
+}
+
+
+#footer-wrapper {
+	max-width: 600px;
+	max-height: 800px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	border: solid 1px black;
+}
+
+footer {
+	text-align: center;
+}
+
+section {
+	margin: 0 4em;
+	text-align: center;
+}
